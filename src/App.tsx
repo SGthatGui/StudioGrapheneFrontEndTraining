@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 
 //section for component imports
+import Header from './components/Header/Header'
 
 //section for React.FC
 const App: React.FC = () => {
@@ -10,9 +11,7 @@ const App: React.FC = () => {
 
   return (
     <div className='base'>
-      <div className='header'>
-        <p>this will be the space for the header in this spa</p>
-      </div>
+      <Header />
       <div className='hero'>
         <h1>StudioGraphene Training program</h1>
       </div>
