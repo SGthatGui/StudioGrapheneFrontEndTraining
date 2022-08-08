@@ -10,7 +10,10 @@ const App: React.FC = () => {
 
   return (
     <div className='base'>
-      <div>
+      <div className='header'>
+        <p>this will be the space for the header in this spa</p>
+      </div>
+      <div className='hero'>
         <h1>StudioGraphene Training program</h1>
       </div>
     </div>
